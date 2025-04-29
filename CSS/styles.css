@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff;
+    color: #222;
+}
+
+/* Navigation */
+nav {
+    background-color: #002868; /* Dark Blue */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #bf0a30; /* Red */
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero button {
+    background-color: white;
+    color: #bf0a30;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Product Section */
+.products {
+    padding: 3rem 2rem;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.products h2 {
+    margin-bottom: 2rem;
+    color: #002868;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    width: 200px;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+/* Footer */
+footer {
+    background-color: #002868;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}

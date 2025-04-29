@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff;
+    color: #222;
+}
+
+/* Navigation */
+nav {
+    background-color: #002868;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-links li a.active {
+    text-decoration: underline;
+}
+
+/* Header */
+.equipment-header {
+    background-color: #bf0a30;
+    color: white;
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+/* Filter */
+.filter-section {
+    padding: 1rem 2rem;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.filter-section select {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+/* Equipment Grid */
+.equipment-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.item {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+}
+
+.item img {
+    max-width: 100%;
+}
+
+/* Footer */
+footer {
+    background-color: #002868;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
